@@ -12,10 +12,10 @@ import org.bson.types.ObjectId;
 @NoArgsConstructor
 public class User {
     private ObjectId id;
-    //@BsonProperty("vardas")
+    //@BsonProperty("name")
     private String name;
-    //@BsonProperty("pavarde")
+    //@BsonProperty("surname")
     private String surname;
-    //@BsonProperty("alga")
+    //@BsonProperty("Balance")
     private double balance;
 }
